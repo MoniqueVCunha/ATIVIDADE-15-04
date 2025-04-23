@@ -382,6 +382,36 @@ if (resposta == respostaCerta) {
 } else {
     console.log("Tente novamente.")
 }
+}
+
+//41.Dragão Acordado
+let dragaoDormindo = true;
+
+if (dragaoDormindo) {
+    console.log("É seguro passar!");
+} else {
+    console.log("Fuja!");
+}
+
+//42.Level Up
+let pontuacao = 1001;
+
+if (pontuacao >= 1000) {
+    console.log("Você subiu de nível!");
+} else {
+    console.log("Tente novamente.");
+}
+
+//43.Poção Mágica
+let ingredentesRaros = true;
+let temCaldeirao = true;
+
+if (ingredentesRaros && temCaldeirao) {
+    console.log("Preparando a poção!");
+} else {
+    console.log("Não foi possivel fazer a poção.");
+}
+
     </script>
 </body>
 </html>
