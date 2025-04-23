@@ -412,6 +412,71 @@ if (ingredentesRaros && temCaldeirao) {
     console.log("Não foi possivel fazer a poção.");
 }
 
+// 44. Código Secreto
+let codigo = "sombra-lunar";
+if (codigo === "sombra-lunar")
+ {
+  console.log("Porta desbloqueada.");
+}
+
+
+// 45. Duelo de Cavaleiros
+let energiaJogador = 80;
+let energiaInimigo = 70;
+if (energiaJogador > energiaInimigo)
+{
+  console.log("Jogador venceu o duelo!");
+}
+
+
+// 46. Previsão do Tempo
+let estaNublado = false;
+let estaChovendo = true;
+if (estaNublado || estaChovendo)
+ {
+  console.log("Leve um guarda-chuva.");
+}
+
+
+// 47. Desafio das Cores
+let corEscolhida = "verde";
+if (corEscolhida === "vermelho" || corEscolhida === "verde" || corEscolhida === "azul")
+ {
+  console.log("Cor aceita.");
+}
+
+
+// 48. Aprovado ou Reprovado
+let media = 6.5;
+if (media >= 6)
+{
+  console.log("Aluno aprovado.");
+}
+ else
+ {
+  console.log("Aluno reprovado.");
+}
+
+
+// 49. Bússola do Herói
+let direcao = "norte";
+if (direcao === "norte")
+ {
+  console.log("Continue!");
+}
+ else
+ {
+  console.log("Pare.");
+}
+
+
+// 50. Salvar Progresso
+let salvarPressionado = true;
+if (salvarPressionado)
+{
+  console.log("Progresso salvo.");
+}
+
     </script>
 </body>
 </html>
